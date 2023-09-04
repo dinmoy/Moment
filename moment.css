@@ -1,0 +1,8 @@
+#main_video {
+    position: absolute;
+
+}
+#main_image{
+    position: absolute;
+    z-index: 1000;
+}
