@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 #main_video {
     position: absolute;
 
@@ -5,4 +9,16 @@
 #main_image{
     position: absolute;
     z-index: 1000;
+}
+nav ul{
+    width: 100%;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+}
+.navigation{
+    position: relative;
 }
