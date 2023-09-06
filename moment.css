@@ -5,30 +5,54 @@ html,body{
     
 }
 header{
-    height: 60px;
+    height: 0px;
 }
 #wrap{
-    min-height: calc(100% -120px);
-    padding-bottom: 60px;
+    min-height: calc(100% -60px);
+    padding-bottom: 90px;
 }
 footer{
     height: 60px;
     font-size: 11px;
     text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+#video-container{
+    position: relative;
+     
+}
+#main_video{
+    width:60%;
+    height:auto;
+    z-index: -1;
+   
+}
+#nav1{
+    position: absolute;
+    left: 20px;
+    border-radius: 5px;
+}
+#text_content p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px;
+}
+text_content p{
+    margin: 0;
+    font-size: 24;
+    font: initial;
 }
 #image_card{
     position: relative;
     margin:50px;
 
 }
-#main_video {
-    position: absolute;
-    z-index: -1;
-}
-#main_image{
-    position: absolute;
-    z-index: 1000;
-}
+
 #nav1{
     margin-left:200px;
     text-align: center;
@@ -42,5 +66,20 @@ footer{
 }
 #nav1>ul li{
     float:left;
+    padding:0 30px;
+}
+#nav2{
+    margin-right:200px;
+    text-align: center;
+    display: inline-block;
+
+}
+#nav2>ul {
+    width: 100%;
+    list-style-type:none;
+    display: inline-block;
+}
+#nav2>ul li{
+    float:right;
     padding:0 30px;
 }
