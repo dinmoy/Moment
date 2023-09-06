@@ -4,21 +4,24 @@
 }
 #main_video {
     position: absolute;
-
+    z-index: -1;
 }
 #main_image{
     position: absolute;
     z-index: 1000;
 }
-nav ul{
+#nav1{
+    margin-left:200px;
+    text-align: center;
+    display: inline-block;
+
+}
+#nav1>ul {
     width: 100%;
     list-style-type:none;
-    margin: 0;
-    padding: 0;
-}
-nav li{
     display: inline-block;
 }
-.navigation{
-    position: relative;
+#nav1>ul li{
+    float:left;
+    padding:0 30px;
 }
