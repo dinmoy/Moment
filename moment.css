@@ -1,9 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
+html,body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+header{
+    height: 60px;
+}
+#wrap{
+    min-height: calc(100% -120px);
+    padding-bottom: 60px;
+}
+footer{
+    height: 60px;
+    font-size: 11px;
+    text-align: center;
 }
 #image_card{
-    position: absolute;
+    position: relative;
     margin:50px;
 
 }
