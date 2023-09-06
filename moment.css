@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+#image_card{
+    position: absolute;
+    margin:50px;
+
+}
 #main_video {
     position: absolute;
     z-index: -1;
