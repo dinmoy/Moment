@@ -20,32 +20,38 @@ footer{
 }
 #video-container{
     position: relative;
+    float:right;
+    width: 60%;
      
 }
 #main_video{
-    width:60%;
+    width:100%;
     height:auto;
-    z-index: -1;
-   
+}
+#main_video::-webkit-media-controls {
+    display: none !important;
+}
+
+#main_video::-webkit-media-controls-panel {
+    width: 0 !important;
+}
+#main_image{
+    position: relative;
+    z-index:1;
 }
 #nav1{
     position: absolute;
     left: 20px;
     border-radius: 5px;
 }
-#text_content p{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
+#text_content {
+    position: relative;
+    float:left;
+    width: 40%;
     padding: 20px;
     text-align: right;
     border-radius: 5px;
-}
-text_content p{
-    margin: 0;
-    font-size: 24;
-    font: initial;
+    
 }
 #image_card{
     position: relative;
@@ -69,17 +75,21 @@ text_content p{
     padding:0 30px;
 }
 #nav2{
-    margin-right:200px;
+    position: absolute;
+    top: 0;
+    right: 0;
     text-align: center;
-    display: inline-block;
 
 }
 #nav2>ul {
-    width: 100%;
-    list-style-type:none;
-    display: inline-block;
+    list-style-type: none;
+    padding: 0;
 }
 #nav2>ul li{
-    float:right;
-    padding:0 30px;
+    display: inline-block;
+    margin-right:30px;
+    padding: 0;
+}
+#nav2 > ul li:last-child{
+    margin-right: 0;
 }
