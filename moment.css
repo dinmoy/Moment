@@ -1,8 +1,6 @@
-html,body{
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
 header{
     height: 0px;
@@ -23,8 +21,9 @@ footer{
     text-align: center;
     margin:50px;
 }
-.image-container:not(:last-child){
-    margin-bottom: 50px;
+.image-container img{
+    width: 380px;
+    height:auto;
 }
 .button-container{
     position: absolute;
@@ -38,21 +37,14 @@ footer{
     no-repeat;
     width:300px;
     height: 30px;
-    /* position: absolute;
-    bottom: 1px;
-    margin-bottom: 10px;
-    left: 50%;
-    transform:translateX(-50%); */
+   
 }
 a{
     text-decoration:none;
     font-size:15px
 }
-#video-container{
-    position: relative;
-    float:right;
-    width: 60%;
-     
+.video-container{
+    margin-bottom:100px;
 }
 #main_video{
     width:60%;
