@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+}
+header img{
+    width:150px;
+    height:auto;
+    margin:20px
+}
+h2{
+    margin-left:180px;
+}
+.news-card{
+    display: felx;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:150px;
+}
+.news-card img{
+    width:500px;
+    height: auto;
+    margin: 20px;
+    margin-bottom: 50px;
+}
