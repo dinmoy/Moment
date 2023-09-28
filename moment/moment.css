@@ -87,20 +87,25 @@ a{
     font-size: 30px;
 }
 #nav1{
-    margin-left:200px;
+    /*네비게이션 바 위치 상단에 고정*/
+    position: fixed;
+    margin-left: 200px;
     text-align: center;
     display: inline-block;
-    color:white;
-
 }
-#nav1>ul {
+#nav1>ul{
     width: 100%;
     list-style-type:none;
-    display: inline-block;
+    display:inline-block;
+    color: white;
 }
 #nav1>ul li{
     float:left;
-    padding:0 30px;
+    padding: 0 30px;
+    line-height:80px;
+}
+#nav1 a{
+    color: white;
 }
 #nav2{
     position: absolute;
