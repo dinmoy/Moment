@@ -24,20 +24,22 @@ footer{
 .image-container img{
     width: 380px;
     height:auto;
+    margin: 30px;
 }
 .button-container{
     position: absolute;
-    bottom: 10px;
-    left: 50%;
+    left: 240px;
     transform: translateX(-50%);
+   
+    margin-bottom: 300px;
 }
 .img-button{
     background: 
     url("./image/purchase_button.png")
     no-repeat;
-    width:300px;
+    width:350px;
     height: 30px;
-   
+    border: none;
 }
 a{
     text-decoration:none;
@@ -106,6 +108,9 @@ a{
 }
 #nav1 a{
     color: white;    
+}
+#nav1 a:visited{
+    color:white !important;
 }
 #nav2{
     position: absolute;
