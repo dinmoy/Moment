@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="logo.css" rel="stylesheet">
+    <link href="/moment/logo.css" rel="stylesheet">
+    <link href="/moment/navigation2/login.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <img src="/moment/image/moment-logo-black.png">
+        <a href="/moment/moment.html"><img src="/moment/image/moment-logo-black.png"></a>
     </header>
-    <div class="login">
-        <input type="text" value="아이디"><br>
-        <input type="text" value="비밀번호"><br>
-        <button type="submit">로그인하기</button>
+    <div class="login-wrapper">
+        <h2>로그인</h2>
+        <form method="post" action="" class="login-form">
+            <input type="text" placeholder="아이디" name="userName"><br>
+            <input type="password" placeholder="비밀번호" name="userPassword"><br>
+            <button type="submit">로그인하기</button>
+        </form>
     </div>
 </body>
+
 </html>
