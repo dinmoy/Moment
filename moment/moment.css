@@ -5,10 +5,6 @@
 header{
     height: 0px;
 }
-#wrap{
-    min-height: calc(100% -60px);
-    padding-bottom: 90px;
-}
 footer{
     height: 60px;
     font-size: 11px;
@@ -16,19 +12,30 @@ footer{
     bottom: 0;
     width: 100%;
 }
+a{
+    text-decoration:none;
+    font-size:15px
+}
+
+#wrap{
+    min-height: calc(100% -60px);
+    padding-bottom: 90px;
+}
+
 .image-container{
     position: relative;
     text-align: center;
-    margin:50px;
 }
 .image-container img{
     width: 380px;
     height:auto;
     margin: 30px;
 }
+
+
 .button-container{
     position: absolute;
-    left: 240px;
+    left: 225px;
     transform: translateX(-50%);
    
     margin-bottom: 300px;
@@ -37,14 +44,12 @@ footer{
     background: 
     url("./image/purchase_button.png")
     no-repeat;
-    width:350px;
-    height: 30px;
+    width:400px;
+    height: 60px;
     border: none;
 }
-a{
-    text-decoration:none;
-    font-size:15px
-}
+
+
 .video-container{
     margin-bottom:100px;
 }
@@ -59,18 +64,14 @@ a{
 #main_video::-webkit-media-controls-panel {
     width: 0 !important;
 }
+
+
 #main_image{
     position: relative;
     margin-top: 20px;
     margin-left: 5px;
     z-index:1;
 }
-#nav1{
-    position: absolute;
-    left: 20px;
-    border-radius: 5px;
-}
-
 #image_card{
     position: relative;
     text-align: center;
@@ -85,8 +86,14 @@ a{
     color: gray
 
 }
-#exclusive{
+/* #exclusive{
     font-size: 30px;
+} */
+
+#nav1{
+    position: absolute;
+    left: 20px;
+    border-radius: 5px;
 }
 #nav1{
     /*네비게이션 바 위치 상단에 고정*/
@@ -99,7 +106,6 @@ a{
     width: 100%;
     list-style-type:none;
     display:inline-block;
-    color: white;
 }
 #nav1>ul li{
     float:left;
@@ -109,26 +115,23 @@ a{
 #nav1 a{
     color: white;    
 }
-#nav1 a:visited{
-    color:white !important;
-}
 #nav2{
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: fixed;
+    margin-left: 200px;
     text-align: center;
-    color: #808080;
-
+    display: inline-block;
 }
 #nav2>ul {
-    list-style-type: none;
-    padding: 0;
+    width: 100%;
+    list-style-type:none;
+    display:inline-block;
 }
 #nav2>ul li{
-    display: inline-block;
-    margin-right:30px;
-    padding: 0;
+    float:right;
+    padding: 0 30px;
+    line-height:80px;
 }
-#nav2 > ul li:last-child{
-    margin-right: 0;
+#nav2 a{
+    color: #808080;
 }
+

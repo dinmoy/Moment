@@ -25,3 +25,13 @@ header{
     height: auto;
     margin-right: 20px;
 }
+#fragrance-container{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+.fragrance-card img{
+    width: 120px;
+    height:auto;
+    margin-right: 50px;
+}
