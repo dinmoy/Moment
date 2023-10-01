@@ -1,7 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 0px;
+}
+a{
+    text-decoration:none;
+    font-size:15px
+}
+
 #nav1{
     position: absolute;
     left: 20px;
     border-radius: 5px;
+    min-height: calc(100% -60px);
+    padding-bottom: 90px;
 }
 #nav1{
     /*네비게이션 바 위치 상단에 고정*/
