@@ -8,24 +8,16 @@
     <title>MOMENT</title>
     <link href="logo.css" rel="stylesheet">
     <link href="moment.css" rel="stylesheet">
+    <script src="/moment/includeHTML.js"></script>
 </head>
 
 <body>
-    <header>
-        <img id="main_image" src="/moment/image/moment-logo.png" width="150" height="30">
-    </header>
-
+    <div include-html="global.html"></div>
+    <script>includeHTML();</script>
     <div id="wrap">
         <div class="video-container">
             <video id="main_video" src="moment-video.mp4" controls autoplay loop></video>
-            <nav id="nav1">
-                <ul>
-                    <li><a href="/moment/navigation1/product_view.html">전 제품 보기</a></li>
-                    <li><a href="/moment/fragrance/fragrance_product_view.html">프래그런스</a></li>
-                    <li><a href="/moment/navigation1/brand.html">브랜드</a></li>
-                    <li><a href="/moment/navigation1/campaign.html">캠페인</a></li>
-                </ul>
-            </nav>
+            
             <nav id="nav2">
                 <ul>
                     <li><a href="/moment/navigation2/login.html">로그인</a></li>

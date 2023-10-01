@@ -1,12 +1,37 @@
 
-h2{
-    margin-left: 600px;
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
 }
-form{
+body{
+    font-size: 15px;;
+}
+h2{
     margin-left: 600px;
 }
 hr{
     float:left;
     width:800px;
+    color: black;
     height:0;
+}
+.join-wrapper{
+    text-align: center;
+    width: 700px;
+    height: 800px;
+    margin: 50px auto;
+}
+.join-form{
+    position: relative;
+    margin: 10px 0;
+}
+.join-form > input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+    padding: 20px 0px 5px 0px;
+    font-size: 14pt;
+    width:100%;
+    margin: 50px;
 }
