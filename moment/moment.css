@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+header{
+    height: 0px;
+}
 footer{
     height: 60px;
     font-size: 11px;
@@ -83,10 +86,35 @@ a{
     color: gray
 
 }
-#exclusive{
+/* #exclusive{
     font-size: 30px;
-}
+} */
 
+#nav1{
+    position: absolute;
+    left: 20px;
+    border-radius: 5px;
+}
+#nav1{
+    /*네비게이션 바 위치 상단에 고정*/
+    position: fixed;
+    margin-left: 200px;
+    text-align: center;
+    display: inline-block;
+}
+#nav1>ul{
+    width: 100%;
+    list-style-type:none;
+    display:inline-block;
+}
+#nav1>ul li{
+    float:left;
+    padding: 0 30px;
+    line-height:80px;
+}
+#nav1 a{
+    color: white;    
+}
 #nav2{
     position: fixed;
     margin-left: 200px;
@@ -106,9 +134,4 @@ a{
 #nav2 a{
     color: #808080;
 }
-@media screen and(max-width:1000px){
 
-}
-@media and (max-width:600px) {
-    
-}
