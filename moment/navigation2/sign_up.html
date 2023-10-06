@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOMENT</title>
-    <link href="/moment/navigation2/sign_up.css" rel="stylesheet">
+    <link href="/moment/logo.css" rel="stylesheet">
+    <link href="/moment/navigation2/login.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="form-container">
-        <div class="form-inner-container">
-            <h3>회원가입</h3>
-            <form>
-                <label for="name">이름</label>
-                <input type="text" name="name" class="name" placeholder="Name">
-
-                <label for="email">이메일</label>
-                <input type="email" name="email" class="email" placeholder="Email">
-
-                <label for="password">비밀번호</label>
-                <input type="password" name="password" class="password" placeholder="Password">
-
-                <label for="email">이메일</label>
-                <input type="email" name="email" class="email" placeholder="Email">
-               
-                <div class="form-controls">
-                    <button type="submit">가입하기</button>
-                </div>
-            </form>
-        </div>
+    <header>
+        <a href="/moment/moment.html"><img src="/moment/image/moment-logo-black.png"></a>
+    </header>
+    <div class="login-wrapper">
+        <h2>회원가입</h2>
+        <form method="post" action="" class="login-form">
+            <input type="text" placeholder="아이디" name="userName"><br>
+            <input type="password" placeholder="비밀번호" name="userPassword"><br>
+            <input type="email" placeholder="이메일" name="userEmail"><br>
+            <input type="number" placeholder="생년월일" name="userBorn"><br>
+            <button type="submit">가입하기</button>
+        </form>
     </div>
 </body>
+
 </html>

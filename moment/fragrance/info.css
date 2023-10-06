@@ -33,6 +33,14 @@ button{
     margin: 10px;
     margin-top: 50px;
 }
+.buy{
+    background-color: white;
+    color: black;
+}
+.cart{
+    background-color: black;
+    color: white;
+}
 
 .button-container{
     width:400px;

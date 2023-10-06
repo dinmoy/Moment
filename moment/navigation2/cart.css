@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin:0;
+}
+h2{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+p{
+    margin-left: 50px;
+}
+.purchase{
+    width:400px;
+    height:70px;
+    margin-left: 1500px;
+    margin-top: 30px;
+}
+.more_add{
+    margin-top: 50px;
+    margin-left: 200px;
+    width:50%;
+    height:70px;
+}
+hr{
+    margin-left: 40px;
+    width: 60%;
+
+}
+.second{
+    margin-top: 400px;
+}
+button{
+    background-color: black;
+    color: white;
+}
