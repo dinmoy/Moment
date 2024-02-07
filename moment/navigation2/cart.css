@@ -20,6 +20,8 @@ p{
     margin-left: 200px;
     width:50%;
     height:70px;
+    background-color: white;
+    color: black;
 }
 hr{
     margin-left: 40px;
@@ -28,8 +30,9 @@ hr{
 }
 .second{
     margin-top: 400px;
+   
 }
 button{
-    background-color: black;
-    color: white;
+        background-color: black;
+        color: white;
 }
